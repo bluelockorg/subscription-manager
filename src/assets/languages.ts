@@ -1,5 +1,6 @@
-import i18n from "../i18n";
 import { Preferences } from "@capacitor/preferences";
+
+import i18n from "../i18n";
 
 export interface LanguageDetails {
   lang: string;

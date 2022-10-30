@@ -158,7 +158,7 @@ const Main: React.FC = () => {
 
   return (
     <IonPage ref={page}>
-      <IonHeader>
+      <IonHeader translucent>
         <IonToolbar>
           <IonTitle>
             <Trans>Subscriptions</Trans>

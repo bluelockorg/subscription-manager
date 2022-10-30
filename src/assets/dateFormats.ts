@@ -1,30 +1,72 @@
-export const dateFormats = [
+interface OptionObject {
+  value: string;
+  text: string;
+}
+
+export const dateOptions: OptionObject[] = [
   {
-    value: "yyyy-MM-dd",
-    text: "Year-Month-Day",
+    value: "yyyy",
+    text: "YYYY",
   },
   {
-    value: "dd/MM/yyyy",
-    text: "Day/Month/Year",
+    value: "MM",
+    text: "MM",
   },
   {
-    value: "MM/dd/yyyy",
-    text: "Month/Day/Year",
+    value: "MMMM",
+    text: "Month",
   },
   {
-    value: "yyyy/MM/dd",
-    text: "Year/Month/Day",
+    value: "MMM",
+    text: "Mon",
   },
   {
-    value: "yyyy-dd-MM",
-    text: "Year-Day-Month",
+    value: "dd",
+    text: "DD",
+  },
+
+  // {
+  //   value: "",
+  //   text: "None",
+  // },
+];
+
+export const separatorOptions: OptionObject[] = [
+  {
+    value: " ",
+    text: "space",
   },
   {
-    value: "dd-MM-yyyy",
-    text: "Day-Month-Year",
+    value: "-",
+    text: "-",
   },
   {
-    value: "DD",
-    text: "Date with Month",
+    value: "/",
+    text: "/",
+  },
+  {
+    value: ".",
+    text: ".",
+  },
+  {
+    value: ",",
+    text: ",",
   },
 ];
+
+export const separatorsRegex = new RegExp(
+  `[${separatorOptions.map((option) => option.value).join("")}]`,
+  "g"
+);
+
+export const optionsWithDefault = (
+  options: OptionObject[],
+  defaultValue?: string
+) => {
+  const defaultOption =
+    options.find((option) => option.value === defaultValue) || options[0];
+  return [
+    defaultOption,
+    ...options.filter((option) => option !== defaultOption),
+  ];
+};

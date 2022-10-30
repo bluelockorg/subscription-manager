@@ -6,10 +6,12 @@
   "Created on": "作成日",
   "Currency": "通貨",
   "Daily": "毎日",
+  "Dark": "ダーク",
   "Date Format": "日付形式",
   "Delete": "削除",
   "Edit": "編集",
   "Language": "言語",
+  "Light": "ライト",
   "Monthly": "毎月",
   "Name": "名前",
   "Next": "次",
@@ -25,12 +27,10 @@
   "Settings": "設定",
   "Start Date": "開始日",
   "Subscriptions": "サブスクリプション",
+  "System": "システム",
   "Theme": "テーマ",
   "URL": "URL",
   "Version": "バージョン",
   "Weekly": "毎週",
-  "Yearly": "毎年",
-  "Dark": "ダーク",
-  "Light": "ライト",
-  "System": "システム"
+  "Yearly": "毎年"
 }

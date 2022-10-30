@@ -1,10 +1,7 @@
 import { addRxPlugin, createRxDatabase } from "rxdb";
 import { RxDBLeaderElectionPlugin } from "rxdb/plugins/leader-election";
-import { getRxStoragePouch, addPouchPlugin } from "rxdb/plugins/pouchdb";
+import { addPouchPlugin, getRxStoragePouch } from "rxdb/plugins/pouchdb";
 import { RxDBReplicationCouchDBPlugin } from "rxdb/plugins/replication-couchdb";
-
-import { RxDBDevModePlugin } from "rxdb/plugins/dev-mode";
-addRxPlugin(RxDBDevModePlugin);
 
 addPouchPlugin(require("pouchdb-adapter-idb"));
 addRxPlugin(RxDBReplicationCouchDBPlugin);

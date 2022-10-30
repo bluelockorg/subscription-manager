@@ -1,6 +1,6 @@
-import { Preferences } from "@capacitor/preferences";
-import { StatusBar, Style } from "@capacitor/status-bar";
-import { Keyboard, KeyboardStyle } from "@capacitor/keyboard";
+import { Keyboard, KeyboardStyle } from '@capacitor/keyboard';
+import { Preferences } from '@capacitor/preferences';
+import { StatusBar, Style } from '@capacitor/status-bar';
 
 export const changeTheme = async (t: string) => {
   if (t === "system") {

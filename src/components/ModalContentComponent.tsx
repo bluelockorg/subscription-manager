@@ -158,16 +158,16 @@ const ModalContentComponent: React.FC<ModalComponentProps> = ({
             )}
           </IonButtons>
           <IonButtons slot="end">
-            {!isEditing ? (
-              <IonButton onClick={() => setIsEditing(true)}>
-                <Trans>Edit</Trans>
-              </IonButton>
-            ) : (
+            {isEditing ? (
               <IonButton
                 disabled={!(subId && name && startDate && period)}
                 onClick={addNewSubscription}
               >
                 <Trans>Save</Trans>
+              </IonButton>
+            ) : (
+              <IonButton onClick={() => setIsEditing(true)}>
+                <Trans>Edit</Trans>
               </IonButton>
             )}
           </IonButtons>
@@ -194,7 +194,7 @@ const ModalContentComponent: React.FC<ModalComponentProps> = ({
               <Trans>Start Date</Trans>
             </strong>
           </IonLabel>
-          <IonDatetimeButton slot="end" datetime="startdate-datetime" />
+          <IonDatetimeButton datetime="startdate-datetime" />
           <IonModal keepContentsMounted={true}>
             <IonDatetime
               onIonChange={(e: any) => {
