@@ -3,7 +3,7 @@
 <!-- <a href="" rel="nofollow"><img src="./gh-assets/app-store-badge.png" alt="website" style="max-width:100%;"></a>
 <a href="" rel="nofollow"><img src="./gh-assets/google-play-badge.png" alt="website" style="max-width:100%;"></a> -->
 </p>
-A simple on device subscription manager app for mobile develped by Bluelock Org.
+A simple on device subscription manager app for mobile developed by Bluelock Org.
 
 ## Things you can do
 - Obviously, you can manage your subscriptions for your music service monthly payments, gym membership, Netflix subscriptions, and more 🎵 
