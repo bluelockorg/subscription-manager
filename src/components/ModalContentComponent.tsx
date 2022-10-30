@@ -268,7 +268,7 @@ const ModalContentComponent: React.FC<ModalComponentProps> = ({
           </IonLabel>
           <IonInput
             value={price}
-            placeholder={t("Price & Currency")}
+            placeholder={`${t("Price")}&${t("Currency")}`}
             className={"ion-text-right"}
             onIonChange={(e) => setPrice(e.detail.value!)}
             readonly={!isEditing}

@@ -20,9 +20,9 @@ For any suggestions, please suggest in Discussions.
 We as BLO put privacy before anything. So, we have developped this app so that everything is done on-device. 🔒
 
 <!-- ## Legal Attribution
-App Store and App Store logo are trademarks of Apple Inc., registered in the U.S. and other countries. -->
+App Store and App Store logo are trademarks of Apple Inc., registered in the U.S. and other countries.
 
-Google Play and the Google Play logo are trademarks of Google LLC.
+Google Play and the Google Play logo are trademarks of Google LLC. -->
 
 ## License
 Code is licensed under [MIT License](./LICENSE).
