@@ -19,6 +19,8 @@ For any suggestions, please suggest in Discussions.
 ## Privacy
 We as BLO put privacy before anything. So, we have developped this app so that everything is done on-device. 🔒
 
+In the current version, no data goes out of your phone. We do not collect any information about you or your subscriptions.
+
 <!-- ## Legal Attribution
 App Store and App Store logo are trademarks of Apple Inc., registered in the U.S. and other countries.
 
