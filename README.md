@@ -1,7 +1,7 @@
 # Subscription Manager
 <p align="left">
-<!-- <a href="" rel="nofollow"><img src="./gh-assets/app-store-badge.png" alt="website" style="max-width:100%;"></a>
-<a href="" rel="nofollow"><img src="./gh-assets/google-play-badge.png" alt="website" style="max-width:100%;"></a> -->
+<a href="https://apps.apple.com/us/app/subscription-manager-by-blo/id1590898810" rel="nofollow"><img src="./gh-assets/app-store-badge.png" alt="website" style="max-width:100%;"></a>
+<!-- <a href="" rel="nofollow"><img src="./gh-assets/google-play-badge.png" alt="website" style="max-width:100%;"></a> -->
 </p>
 A simple on device subscription manager app for mobile developed by Bluelock Org.
 
